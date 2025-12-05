@@ -35,3 +35,5 @@ mongoose.connect(process.env.MONGO_URI)
     app.listen(PORT, () => console.log(` Serveur sur ${PORT}`));
   })
   .catch(err => console.log(err));
+
+  module.exports = app;
